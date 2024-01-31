@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
+color black
+color white
+drawable background
+drawable btn_background
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable logo
+font poppins
+font poppins_extralight
+font roboto_bold
+id btn_check
+id font
+id option01
+id option02
+id option03
+id option04
+id radioGroup
+id tv_question
+id tv_score
+layout activity_main
+layout activity_quis
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.QuizApps
+style Theme.QuizApps
+xml backup_rules
+xml data_extraction_rules

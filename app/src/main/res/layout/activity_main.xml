@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/logo"
+        />
+
+  <TextView
+
+      android:id="@+id/tv_score"
+      android:text="Score : 0"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textStyle="bold"
+
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+      />
+
+    <TextView
+
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question "
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:layout_margin="5dp"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall">
+
+    </TextView>
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+
+            <RadioButton
+                android:id="@+id/option01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 1"
+                />
+            <RadioButton
+                android:id="@+id/option02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 2"
+                />
+            <RadioButton
+                android:id="@+id/option03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 3"
+                />
+            <RadioButton
+                android:id="@+id/option04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 4"
+                />
+
+        </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/btn_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:fontFamily="@font/poppins"
+        android:includeFontPadding="false"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="Check Answer"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+
+
+
+
+
+
+</LinearLayout>
